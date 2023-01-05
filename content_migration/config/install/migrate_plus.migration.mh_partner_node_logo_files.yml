@@ -1,0 +1,66 @@
+id: mh_partner_node_logo_files
+label: Partner logo files import
+migration_group: partner_node_import
+source:
+  plugin: url
+  data_fetcher_plugin: file
+  data_parser_plugin: json
+  include_raw_data: true
+  track_changes: true
+  urls:
+    - 'sites/default/files/migration-source/partner.json'
+  item_selector: items/
+  fields:
+    - name: fileName
+      label: 'fileName'
+      selector: fields/image/en-US/fields/file/en-US/fileName
+    
+    - name: image
+      label: 'Image URL to a image'
+      selector: fields/image/en-US/fields/file/en-US/url
+
+    - name: id
+      label: 'id'
+      selector: fields/image/en-US/sys/id
+  ids:
+    id:
+      type: string
+  constants:
+    FILE_DIRECTORY: 'public://migrated-media/'
+    SITE_PROTOCOL: 'https:'
+process:
+  pseudo_destination_path:
+    -
+      plugin: skip_on_empty
+      source: fileName
+      method: row
+      message: 'Cannot import empty image filename.'
+    -
+      plugin: concat
+      source:
+        - constants/FILE_DIRECTORY
+        - fileName
+  file_uri:
+    -
+      plugin: skip_on_empty
+      method: process
+      source: image
+    -
+      plugin: concat
+      source:
+        - constants/SITE_PROTOCOL
+        - image
+  uri:
+    -
+      plugin: skip_on_empty
+      method: process
+      source: image
+    -
+      plugin: file_copy
+      source:
+        - '@file_uri'
+        - '@pseudo_destination_path'
+      file_exists: use existing
+      move: false
+destination:
+  plugin: 'entity:file'

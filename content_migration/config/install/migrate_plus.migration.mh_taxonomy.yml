@@ -1,0 +1,45 @@
+id: mh_taxonomy
+label: Migrate all terms from JSON
+migration_group: common_entities
+source:
+  plugin: url
+  data_fetcher_plugin: file
+  data_parser_plugin: json
+  include_raw_data: true
+  track_changes: true
+  urls:
+    - 'sites/default/files/migration-source/taxonomy_terms.json'
+  item_selector: /
+  fields:
+    - name: id
+      label: 'id'
+      selector: id
+    - name: term
+      label: 'term'
+      selector: name/en-US
+    - name: vocab
+      label: vocab
+      selector: parent_name/en-US
+  ids:
+    id:
+      type: string
+process:
+  skip_empty_terms:
+    plugin: skip_on_empty
+    source: term
+    method: row
+    message: 'Term name is empty.'
+  name: term
+  langcode: 
+    - plugin: default_value
+      default_value: en
+  vid:
+    plugin: static_map
+    source: vocab
+    bypass: TRUE
+    map:
+      Process: process
+      Industry: industry
+      Partner Type: partner_type
+destination:
+  plugin: entity:taxonomy_term

@@ -1,0 +1,33 @@
+id: mh_user_data
+label: Migrate all Users from JSON
+migration_group: common_entities
+source:
+  plugin: url
+  data_fetcher_plugin: file
+  data_parser_plugin: json
+  include_raw_data: true
+  track_changes: true
+  urls:
+    - 'sites/default/files/migration-source/users.json'
+  item_selector: items/
+  fields:
+    - name: user_status
+      label: 'user_status'
+      selector: activated
+
+    - name: email
+      label: 'email'
+      selector: email
+
+    - name: userId
+      label: 'userId'
+      selector: sys/id
+  ids:
+    userId:
+      type: string
+process:
+  name: email
+  mail: email
+  status: user_status
+destination:
+  plugin: 'entity:user'

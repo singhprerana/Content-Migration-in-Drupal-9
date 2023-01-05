@@ -1,0 +1,4 @@
+id: common_entities
+label: Generic Data Import
+description: Groups generic data import scripts
+source_type: json

@@ -1,0 +1,174 @@
+{
+    "items": [
+      {
+        "firstName": "Gezim",
+        "lastName": "Rexhepi",
+        "email": "g.rexhepi@example.com",
+        "activated": true,
+        "sys": {
+          "type": "User",
+          "id": "0PgWipnb64GZPsT6VJXiJy",
+          "version": 828,
+          "createdAt": "2018-07-20T06:36:07Z",
+          "updatedAt": "2022-04-29T08:00:01Z"
+        }
+      },
+      {
+        "firstName": "Durim",
+        "lastName": "Cesko",
+        "email": "d.cesko@example.com",
+        "activated": true,
+        "sys": {
+          "type": "User",
+          "id": "74QNq6WtZUJ0vKHwCNHHqZ",
+          "version": 513,
+          "createdAt": "2019-03-04T10:40:53Z",
+          "updatedAt": "2022-04-26T08:02:20Z"
+        }
+      },
+      {
+        "firstName": "Finja",
+        "lastName": "Butteron",
+        "email": "f.butteron@example.de",
+        "activated": true,
+        "sys": {
+          "type": "User",
+          "id": "1Y3JJw8gXZ8PL89K4pQad1",
+          "version": 102,
+          "createdAt": "2019-08-09T07:35:58Z",
+          "updatedAt": "2022-04-20T13:31:01Z"
+        }
+      },
+      {
+        "firstName": "Divya",
+        "lastName": "Krishnan",
+        "email": "d.krishnan@example.de",
+        "activated": true,
+        "sys": {
+          "type": "User",
+          "id": "13EpYdDf7zzPHOf77cU85m",
+          "version": 70,
+          "createdAt": "2019-08-16T18:18:14Z",
+          "updatedAt": "2022-02-16T13:20:01Z"
+        }
+      },
+      {
+        "firstName": "Nite",
+        "lastName": "Konjuhi",
+        "email": "n.konjuhi@example.de",
+        "activated": true,
+        "sys": {
+          "type": "User",
+          "id": "5QcH3pHk1j8hI03dVBHoBh",
+          "version": 567,
+          "createdAt": "2019-12-19T16:37:20Z",
+          "updatedAt": "2022-04-22T11:15:55Z"
+        }
+      },
+      {
+        "firstName": "Brandon",
+        "lastName": "Ortiz",
+        "email": "b.ortiz@example.com",
+        "activated": true,
+        "sys": {
+          "type": "User",
+          "id": "7zmS7nKpeWWzxmtlUdaRNP",
+          "version": 367,
+          "createdAt": "2020-01-03T14:19:26Z",
+          "updatedAt": "2022-04-28T11:30:29Z"
+        }
+      },
+      {
+        "firstName": "Leutrim",
+        "lastName": "Zhegrova",
+        "email": "l.zhegrova@example.com",
+        "activated": true,
+        "sys": {
+          "type": "User",
+          "id": "40kEXaJFMxAKB42x5AjSjb",
+          "version": 600,
+          "createdAt": "2020-01-03T14:51:57Z",
+          "updatedAt": "2022-04-19T13:36:02Z"
+        }
+      },
+      {
+        "firstName": "Albert",
+        "lastName": "Lekaj",
+        "email": "a.lekaj@example.com",
+        "signupSource": null,
+        "activated": true,
+        "sys": {
+          "type": "User",
+          "id": "24otTPp8SQgMO3R5obi3Df",
+          "version": 495,
+          "createdAt": "2020-01-03T15:47:27Z",
+          "updatedAt": "2022-04-28T14:08:59Z"
+        }
+      },
+      {
+        "firstName": "Sam",
+        "lastName": "Attias",
+        "email": "s.attias@example.de",
+        "activated": true,
+        "sys": {
+          "type": "User",
+          "id": "7vDe7F6LivKUsx6rL4jwx2",
+          "version": 40,
+          "createdAt": "2020-01-10T13:49:36Z",
+          "updatedAt": "2022-01-13T10:22:43Z"
+        }
+      },
+      {
+        "firstName": "Maxwell",
+        "lastName": "Smith",
+        "email": "m.smith@example.de",
+        "activated": true,
+        "sys": {
+          "type": "User",
+          "id": "7vC2CL7Ei1KtjDLwr0KLND",
+          "version": 158,
+          "createdAt": "2020-01-10T13:49:36Z",
+          "updatedAt": "2022-04-05T13:50:49Z"
+        }
+      },
+      {
+        "firstName": "Jonathan",
+        "lastName": "Baumann",
+        "email": "jo.baumann@example.com",
+        "activated": true,
+        "sys": {
+          "type": "User",
+          "id": "6M7pakckVQujPXIGhTMpaJ",
+          "version": 12,
+          "createdAt": "2020-01-15T08:20:53Z",
+          "updatedAt": "2022-04-14T11:47:57Z"
+        }
+      },
+      {
+        "firstName": "Sanya",
+        "lastName": "Mohsini",
+        "email": "s.mohsini@example.com",
+        "activated": true,
+        "sys": {
+          "type": "User",
+          "id": "1WCVCMhmmFxjIZF1pcBEDj",
+          "version": 64,
+          "createdAt": "2020-01-16T11:57:10Z",
+          "updatedAt": "2022-02-25T11:10:59Z"
+        }
+      },
+      {
+        "firstName": "Lena",
+        "lastName": "Wallentin",
+        "email": "l.wallentin@example.com",
+        "activated": true,
+        "sys": {
+          "type": "User",
+          "id": "2PovrzNO2BrpnEdP73QaWs",
+          "version": 154,
+          "createdAt": "2020-01-18T14:47:24Z",
+          "updatedAt": "2022-04-26T06:53:32Z"
+        }
+      }
+    ]
+  }

@@ -1,0 +1,71 @@
+id: mh_partner_node_logo
+label: Partner logo media import
+migration_group: partner_node_import
+source:
+  plugin: url
+  data_fetcher_plugin: file
+  data_parser_plugin: json
+  include_raw_data: true
+  track_changes: true
+  urls:
+    - 'sites/default/files/migration-source/partner.json'
+  item_selector: items/
+  fields:
+    - name: mimeType
+      label: 'mimeType'
+      selector: fields/image/en-US/fields/file/en-US/contentType
+    
+    - name: title
+      label: 'title'
+      selector: fields/image/en-US/fields/title/en-US
+
+    - name: fileName
+      label: 'fileName'
+      selector: fields/image/en-US/fields/file/en-US/fileName
+
+    - name: id
+      label: 'id'
+      selector: fields/image/en-US/sys/id
+  ids:
+    id:
+      type: string
+  # Constants used
+  constants:
+    UID: 1
+process:
+  skip_empty_files:
+    plugin: skip_on_empty
+    source: fileName
+    method: row
+    message: 'Cannot import empty image fileName.'
+  # Skip the row if image file is SVG
+  skip_invalid_files:
+    plugin: skip_on_condition
+    source: mimeType
+    condition:
+      plugin: or
+      conditions:
+        -
+          plugin: equals
+          value: 'image/svg+xml'
+          strict: true
+        -
+          plugin: equals
+          value: 'video/mp4'
+          strict: true  
+    method: row
+    message: 'Skipped svg/video files.'
+  name: fileName
+  field_media_image/target_id:
+    plugin: migration_lookup
+    migration: mh_partner_node_logo_files
+    source: id
+  field_media_image/alt: title
+  field_media_image/title: title
+  uid: constants/UID
+destination:
+  plugin: 'entity:media'
+  default_bundle: image
+migration_dependencies:
+  optional:
+    - mh_partner_node_logo_files

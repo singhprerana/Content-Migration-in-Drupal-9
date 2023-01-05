@@ -1,0 +1,4 @@
+id: partner_node_import
+label: Partner Node Import
+description: Partner Content Type Data Import
+source_type: json

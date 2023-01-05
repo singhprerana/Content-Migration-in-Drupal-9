@@ -1,0 +1,9 @@
+name: Content Migration
+type: module
+description: 'Example of Content Data Migration in Drupal 9.'
+core_version_requirement: ^9
+package: Custom
+dependencies:
+  - drupal:migrate
+  - drupal:migrate_plus
+  - drupal:migrate_conditions

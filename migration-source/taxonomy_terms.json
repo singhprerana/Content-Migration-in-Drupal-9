@@ -1,0 +1,407 @@
+[
+    {
+      "id": "3cPu6zsqj3yAlQca47atdK",
+      "name": {
+        "en-US": "Accounts Payable",
+        "de": "Accounts Payable"
+      },
+      "parent_id": "20yEiH6SyZ7ZQlromirYQi",
+      "parent_name": {
+        "en-US": "Process",
+        "de": "Process"
+      }
+    },
+    {
+      "id": "4Pb7fGAuuVS4u4iiBTIyFH",
+      "name": {
+        "en-US": "Accounts Receivable",
+        "de": "Accounts Receivable"
+      },
+      "parent_id": "20yEiH6SyZ7ZQlromirYQi",
+      "parent_name": {
+        "en-US": "Process",
+        "de": "Process"
+      }
+    },
+    {
+      "id": "w5GewqQLqNI0M6cu92KzW0fv9xPHvg",
+      "name": {
+        "en-US": "Claims Management",
+        "de": "Claims Management",
+        "es": "Claims Management"
+      },
+      "parent_id": "w5GewqQLqNI0M6cu92KzW0fv9xPHvg",
+      "parent_name": {
+        "en-US": "Process",
+        "de": "Process"
+      }
+    },
+    {
+      "id": "7jqvn1nnLm9FI3WczmS0dv",
+      "name": {
+        "en-US": "Customer Journey",
+        "de": "Customer Journey"
+      },
+      "parent_id": "20yEiH6SyZ7ZQlromirYQi",
+      "parent_name": {
+        "en-US": "Process",
+        "de": "Process"
+      }
+    },
+    {
+      "id": "4Hlf0AeK8VbYfTsOt5W9b0",
+      "name": {
+        "en-US": "Customer onboarding",
+        "de": "Customer onboarding"
+      },
+      "parent_id": "20yEiH6SyZ7ZQlromirYQi",
+      "parent_name": {
+        "en-US": "Process",
+        "de": "Process"
+      }
+    },
+    {
+      "id": "1qWv7EmVx5qXz2GOY9VVzz",
+      "name": {
+        "en-US": "Customer Service",
+        "de": "Customer Service"
+      },
+      "parent_id": "3PMTAAPKoUFCfSsR8aemo4",
+      "parent_name": {
+        "en-US": "Process",
+        "de": "Process"
+      }
+    },
+    {
+      "id": "6M9DatdfsphvLIqCN3PdtH",
+      "name": {
+        "en-US": "Inventory Management",
+        "de": "Inventory Management"
+      },
+      "parent_id": "20yEiH6SyZ7ZQlromirYQi",
+      "parent_name": {
+        "en-US": "Process",
+        "de": "Process"
+      }
+    },
+    {
+      "id": "h16qGB3aFAwSATLJifIgdmFBfSH8ss",
+      "name": {
+        "en-US": "ITSM",
+        "de": "ITSM"
+      },
+      "parent_id": "h16qGB3aFAwSATLJifIgdmFBfSH8ss",
+      "parent_name": {
+        "en-US": "Process",
+        "de": "Process"
+      }
+    },
+    {
+      "id": "WF7VVD9z4lvPTNMhuCzjHk05vdyRE5",
+      "name": {
+        "en-US": "Order Management",
+        "de": "Order Management"
+      },
+      "parent_id": "WF7VVD9z4lvPTNMhuCzjHk05vdyRE5",
+      "parent_name": {
+        "en-US": "Process",
+        "de": "Process"
+      }
+    },
+    {
+      "id": "i6VnZKqUCXCQThuN71zrW",
+      "name": {
+        "en-US": "Meter-to-Cash",
+        "de": "Meter-to-Cash"
+      },
+      "parent_id": "20yEiH6SyZ7ZQlromirYQi",
+      "parent_name": {
+        "en-US": "Process",
+        "de": "Process"
+      }
+    },
+    {
+      "id": "61weJTx5EqKm1ndP4o5JZr",
+      "name": {
+        "en-US": "Mortgage Application",
+        "de": "Mortgage Application"
+      },
+      "parent_id": "20yEiH6SyZ7ZQlromirYQi",
+      "parent_name": {
+        "en-US": "Process",
+        "de": "Process"
+      }
+    },
+    {
+      "id": "2m2fuaQIqFd12taX1S0u9u",
+      "name": {
+        "en-US": "Order-to-Cash",
+        "de": "Order-to-Cash"
+      },
+      "parent_id": "20yEiH6SyZ7ZQlromirYQi",
+      "parent_name": {
+        "en-US": "Process",
+        "de": "Process"
+      }
+    },
+    {
+      "id": "2QbIoO0hO29AioBcLjanQF",
+      "name": {
+        "en-US": "Other",
+        "de": "Other"
+      },
+      "parent_id": "20yEiH6SyZ7ZQlromirYQi",
+      "parent_name": {
+        "en-US": "Process",
+        "de": "Process"
+      }
+    },
+    {
+      "id": "62a0khtDqA9pM4CAqG7XnH",
+      "name": {
+        "en-US": "Procure-to-Pay",
+        "de": "Procure-to-Pay"
+      },
+      "parent_id": "20yEiH6SyZ7ZQlromirYQi",
+      "parent_name": {
+        "en-US": "Process",
+        "de": "Process"
+      }
+    },
+    {
+      "id": "7BqCsU4fLV2Lca2bGakTQ9",
+      "name": {
+        "en-US": "Production",
+        "de": "Production"
+      },
+      "parent_id": "20yEiH6SyZ7ZQlromirYQi",
+      "parent_name": {
+        "en-US": "Process",
+        "de": "Process"
+      }
+    },
+    {
+      "id": "7n92t9lnlA4Vf8Ckh3TUmw",
+      "name": {
+        "en-US": "Purchase-to-Pay",
+        "de": "Purchase-to-Pay"
+      },
+      "parent_id": "3PMTAAPKoUFCfSsR8aemo4",
+      "parent_name": {
+        "en-US": "Process",
+        "de": "Process"
+      }
+    },
+    {
+      "id": "wdwb3uceszNuKPCTn9C3E",
+      "name": {
+        "en-US": "Record-to-Report",
+        "de": "Record-to-Report"
+      },
+      "parent_id": "20yEiH6SyZ7ZQlromirYQi",
+      "parent_name": {
+        "en-US": "Process",
+        "de": "Process"
+      }
+    },
+    {
+      "id": "ax5ur1KxZGI4Qw3IsrhLiU7SwmxC5S",
+      "name": {
+        "en-US": "Aerospace & Defense",
+        "de": "Aerospace & Defense"
+      },
+      "parent_id": "ax5ur1KxZGI4Qw3IsrhLiU7SwmxC5S",
+      "parent_name": {
+        "de": "Industrie",
+        "en-US": "Industry"
+      }
+    },
+    {
+      "id": "3YzjckOnEwseuy3WnaZypJ",
+      "name": {
+        "de": "Automobilindustrie",
+        "en-US": "Automotive"
+      },
+      "parent_id": "7hToRsAIZ0c4ZYDJ8PxsgE",
+      "parent_name": {
+        "de": "Industrie",
+        "en-US": "Industry"
+      }
+    },
+    {
+      "id": "2DojYrmmwX95TYA4YVd1O",
+      "name": {
+        "de": "Bankwesen",
+        "en-US": "Banking"
+      },
+      "parent_id": "7hToRsAIZ0c4ZYDJ8PxsgE",
+      "parent_name": {
+        "de": "Industrie",
+        "en-US": "Industry"
+      }
+    },
+    {
+      "id": "7ibyyqgx1hxFfnEp7DgplB",
+      "name": {
+        "en-US": "Chemicals",
+        "de": "Chemicals"
+      },
+      "parent_id": "7hToRsAIZ0c4ZYDJ8PxsgE",
+      "parent_name": {
+        "de": "Industrie",
+        "en-US": "Industry"
+      }
+    },
+    {
+      "id": "fGNdISPZpBFzs0943khaTDWXbcY4eO",
+      "name": {
+        "en-US": "Consumer Goods",
+        "de": "Consumer Goods"
+      },
+      "parent_id": "fGNdISPZpBFzs0943khaTDWXbcY4eO",
+      "parent_name": {
+        "de": "Industrie",
+        "en-US": "Industry"
+        
+      }
+    },
+    {
+      "id": "2zfmLTJf0kkd5EAlOF9wPI",
+      "name": {
+        "de": "Finanzdienstleistungen",
+        "en-US": "Financial Services"
+      },
+      "parent_id": "7hToRsAIZ0c4ZYDJ8PxsgE",
+      "parent_name": {
+        "de": "Industrie",
+        "en-US": "Industry"
+        
+      }
+    },
+    {
+      "id": "6HD1cyaKS4XUyuO1Au47xG",
+      "name": {
+        "de": "Hightech",
+        "en-US": "High Tech"
+      },
+      "parent_id": "7hToRsAIZ0c4ZYDJ8PxsgE",
+      "parent_name": {
+        "de": "Industrie",
+        "en-US": "Industry"
+        
+      }
+    },
+    {
+      "id": "7eOstyeNSMK8g4lEZJp1Mo",
+      "name": {
+        "de": "Versicherung",
+        "en-US": "Insurance"
+      },
+      "parent_id": "7hToRsAIZ0c4ZYDJ8PxsgE",
+      "parent_name": {
+        "de": "Industrie",
+        "en-US": "Industry"
+        
+      }
+    },
+    {
+      "id": "6IyufHEkC0K3630218jZIK",
+      "name": {
+        "de": "Fertigung & Produktion",
+        "en-US": "Manufacturing"
+      },
+      "parent_id": "7hToRsAIZ0c4ZYDJ8PxsgE",
+      "parent_name": {
+        "de": "Industrie",
+        "en-US": "Industry"
+        
+      }
+    },
+    {
+      "id": "57au7nrdP9Jh6eA7TQdLNC",
+      "name": {
+        "de": "Andere Industrie"
+      },
+      "parent_id": "7hToRsAIZ0c4ZYDJ8PxsgE",
+      "parent_name": {
+        "de": "Industrie",
+        "en-US": "Industry"
+        
+      }
+    },
+    {
+      "id": "31Xou3RtLIJzk0VeqXSUpU",
+      "name": {
+        "en-US": "Professional Services"
+      },
+      "parent_id": "7hToRsAIZ0c4ZYDJ8PxsgE",
+      "parent_name": {
+        "de": "Industrie",
+        "en-US": "Industry"
+        
+      }
+    },
+    {
+      "id": "6Un0rxxnwvf5z6e4nCBSXH",
+      "name": {
+        "de": "Einzelhandel",
+        "en-US": "Retail"
+      },
+      "parent_id": "7hToRsAIZ0c4ZYDJ8PxsgE",
+      "parent_name": {
+        "de": "Industrie",
+        "en-US": "Industry"
+        
+      }
+    },
+    {
+      "id": "7bK4pO8Q2AwzX2LTwsAahE",
+      "name": {
+        "de": "Reise- und Transportwesen",
+        "en-US": "Travel & Transportation"
+      },
+      "parent_id": "7hToRsAIZ0c4ZYDJ8PxsgE",
+      "parent_name": {
+        "de": "Industrie",
+        "en-US": "Industry"
+        
+      }
+    },
+    {
+      "id": "3IzOu9zjQxPIbXwjdj1k8G",
+      "name": {
+        "en-US": "Service Partner",
+        "de": "Service Partner"
+      },
+      "parent_id": "2GfGxhCaaTqvaq9btDMOxW",
+      "parent_name": {
+        "en-US": "Partner Type",
+        "de": "Partner Type"
+      }
+    },
+    {
+      "id": "7BFla9kxJaPHRbSvtiMsAI",
+      "name": {
+        "en-US": "Technology Partner",
+        "de": "Technology Partner"
+      },
+      "parent_id": "2GfGxhCaaTqvaq9btDMOxW",
+      "parent_name": {
+        "en-US": "Partner Type",
+        "de": "Partner Type"
+      }
+    },
+    {
+      "id": "7KUYAGXRCcWEzsPOimUNnZNFbbXqDC",
+      "name": {
+        "en-US": "ISV Partner",
+        "de": "ISV Partner"
+      },
+      "parent_id": "7KUYAGXRCcWEzsPOimUNnZNFbbXqDC",
+      "parent_name": {
+        "en-US": "Partner Type",
+        "de": "Partner Type"
+      }
+    }
+  ]
+  

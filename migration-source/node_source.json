@@ -1,0 +1,1332 @@
+{
+  "items": [
+    {
+      "sys": {
+        "id": "C7wqjGAntbrgTy1ePkzwp",
+        "type": "Entry",
+        "createdAt": "2021-06-02T17:06:57.701Z",
+        "updatedAt": "2022-06-07T12:25:21.906Z"
+      },
+      "fields": {
+        "image": {
+          "en-US": {
+            "sys": {
+              "id": "5H1Il6ner3qbAA04ozp9td",
+              "type": "Asset",
+              "createdAt": "2021-06-29T11:54:46.528Z",
+              "updatedAt": "2021-06-29T11:54:46.528Z"
+            },
+            "fields": {
+              "title": {
+                "en-US": "1280px-IBM logo.svg"
+              },
+              "file": {
+                "en-US": {
+                  "url": "//images.ctfassets.net/zmrtlfup12q3/5H1Il6ner3qbAA04ozp9td/38705b0802a482d43bd423465f3d6764/1280px-IBM_logo.svg.png",
+                  "details": {
+                    "size": 7249,
+                    "image": {
+                      "width": 1280,
+                      "height": 512
+                    }
+                  },
+                  "fileName": "1280px-IBM_logo.svg.png",
+                  "contentType": "image/png"
+                }
+              }
+            }
+          }
+        },
+        "title": {
+          "en-US": "IBM",
+          "de": "IBM"
+        },
+        "pageUrl": {
+          "en-US": "/partner/ibm-2"
+        },
+        "partnerType": {
+          "en-US": [
+            {
+              "sys": {
+                "id": "3IzOu9zjQxPIbXwjdj1k8G",
+                "type": "Entry",
+                "createdAt": "2021-06-02T16:11:18.428Z",
+                "updatedAt": "2021-06-17T07:37:42.262Z"
+              },
+              "name": "Service Partner",
+              "parentTag": {
+                "name": "Partner Type",
+                "id": "2GfGxhCaaTqvaq9btDMOxW",
+                "slug": "partner-type"
+              }
+            },
+            {
+              "sys": {
+                "id": "7BFla9kxJaPHRbSvtiMsAI",
+                "type": "Entry",
+                "createdAt": "2021-06-02T16:11:42.941Z",
+                "updatedAt": "2021-06-17T07:13:21.121Z"
+              },
+              "name": "Technology Partner",
+              "parentTag": {
+                "name": "Partner Type",
+                "id": "2GfGxhCaaTqvaq9btDMOxW",
+                "slug": "partner-type"
+              }
+            }
+          ]
+        },
+        "partnerLevel": {
+          "en-US": [
+            {
+              "sys": {
+                "id": "2gV60HujnhZoo0qF18Sc8L",
+                "type": "Entry",
+                "createdAt": "2021-06-16T09:29:09.161Z",
+                "updatedAt": "2021-06-17T08:01:25.938Z"
+              },
+              "name": "Titanium",
+              "parentTag": {
+                "name": "Service Partner Level",
+                "id": "1RfonXb34oAwAtFV1IRKFM",
+                "slug": "partner-level"
+              }
+            }
+          ]
+        },
+        "meta2": {
+          "en-US": [
+            {
+              "sys": {
+                "id": "6Z3FnKwEiIE3uraO4Ngk3c",
+                "type": "Entry",
+                "createdAt": "2021-06-22T17:30:39.798Z",
+                "updatedAt": "2021-06-22T17:30:39.798Z"
+              },
+              "fields": {
+                "title": {
+                  "en-US": "Partner Program - TITANIUM --onWhite"
+                },
+                "fileimage": {
+                  "en-US": {
+                    "sys": {
+                      "id": "41yw3MJuAiUi5DExq2Wy0B",
+                      "type": "Asset",
+                      "createdAt": "2021-06-22T16:33:33.341Z",
+                      "updatedAt": "2021-06-22T16:33:33.341Z"
+                    },
+                    "fields": {
+                      "title": {
+                        "en-US": "partner small-badge TITANIUM onWhite"
+                      },
+                      "file": {
+                        "en-US": {
+                          "url": "//images.ctfassets.net/zmrtlfup12q3/41yw3MJuAiUi5DExq2Wy0B/1771a1cb23068e877be668ded9a78ebc/partner_small-badge_TITANIUM_onWhite.svg",
+                          "details": {
+                            "size": 1539,
+                            "image": {
+                              "width": 179,
+                              "height": 268
+                            }
+                          },
+                          "fileName": "partner_small-badge_TITANIUM_onWhite.svg",
+                          "contentType": "image/svg+xml"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "subTitle": {
+          "en-US": "Service Partner"
+        },
+        "excerpt": {
+          "de": "",
+          "en-US": "IBM is the global leader in business transformation through an open hybrid cloud platform and AI, serving clients in more than 170 countries around the world. Today 47 of the Fortune 50 Companies rely on the IBM Cloud to..."
+        },
+        "description": {
+          "de": "",
+          "en-US": "IBM is the global leader in business transformation through an open hybrid cloud platform and AI, serving clients in more than 170 countries around the world. Today 47 of the Fortune 50 Companies rely on the IBM Cloud to run their business, and IBM Watson enterprise AI is hard at work in more than 30,000 engagements. IBM is also one of the world’s most vital corporate research organizations, with 28 consecutive years of patent leadership. Above all, guided by principles for trust and transparency and support for a more inclusive society, IBM is committed to being a responsible technology innovator and a force for good in the world."
+        },
+        "showLinkText": {
+          "en-US": [
+            "True"
+          ]
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zmrtlfup12q3"
+          }
+        },
+        "id": "1HuitPWiAncBuDCWQDoLKR",
+        "type": "Entry",
+        "createdAt": "2021-06-29T09:35:13.875Z",
+        "updatedAt": "2022-06-07T12:25:36.796Z"
+      },
+      "fields": {
+        "image": {
+          "en-US": {
+            "sys": {
+              "id": "2nI8AdQYGPiX2x8kk7VPF3",
+              "type": "Asset",
+              "createdAt": "2021-06-29T11:49:07.678Z",
+              "updatedAt": "2021-06-29T11:49:07.678Z"
+            },
+            "fields": {
+              "title": {
+                "en-US": "Accenture"
+              },
+              "file": {
+                "en-US": {
+                  "url": "//images.ctfassets.net/zmrtlfup12q3/2nI8AdQYGPiX2x8kk7VPF3/3a118b0545633356aa04e42ead4d3df7/Accenture.png",
+                  "details": {
+                    "size": 16959,
+                    "image": {
+                      "width": 1531,
+                      "height": 512
+                    }
+                  },
+                  "fileName": "Accenture.png",
+                  "contentType": "image/png"
+                }
+              }
+            }
+          }
+        },
+        "title": {
+          "en-US": "Accenture",
+          "de": "Accenture"
+        },
+        "pageUrl": {
+          "en-US": "/partner/accenture"
+        },
+        "partnerType": {
+          "en-US": [
+            {
+              "sys": {
+                "id": "3IzOu9zjQxPIbXwjdj1k8G",
+                "type": "Entry",
+                "createdAt": "2021-06-02T16:11:18.428Z",
+                "updatedAt": "2021-06-17T07:37:42.262Z"
+              },
+              "name": "Service Partner",
+              "parentTag": {
+                "name": "Partner Type",
+                "id": "2GfGxhCaaTqvaq9btDMOxW",
+                "slug": "partner-type"
+              }
+            }
+          ]
+        },
+        "partnerLevel": {
+          "en-US": [
+            {
+              "sys": {
+                "id": "2gV60HujnhZoo0qF18Sc8L",
+                "type": "Entry",
+                "createdAt": "2021-06-16T09:29:09.161Z",
+                "updatedAt": "2021-06-17T08:01:25.938Z"
+              },
+              "name": "Titanium",
+              "parentTag": {
+                "name": "Service Partner Level",
+                "id": "1RfonXb34oAwAtFV1IRKFM",
+                "slug": "partner-level"
+              }
+            }
+          ]
+        },
+        "meta2": {
+          "en-US": [
+            {
+              "sys": {
+                "id": "6Z3FnKwEiIE3uraO4Ngk3c",
+                "type": "Entry",
+                "createdAt": "2021-06-22T17:30:39.798Z",
+                "updatedAt": "2021-06-22T17:30:39.798Z"
+              },
+              "fields": {
+                "title": {
+                  "en-US": "Partner Program - TITANIUM --onWhite"
+                },
+                "fileimage": {
+                  "en-US": {
+                    "sys": {
+                      "id": "41yw3MJuAiUi5DExq2Wy0B",
+                      "type": "Asset",
+                      "createdAt": "2021-06-22T16:33:33.341Z",
+                      "updatedAt": "2021-06-22T16:33:33.341Z"
+                    },
+                    "fields": {
+                      "title": {
+                        "en-US": "partner small-badge TITANIUM onWhite"
+                      },
+                      "file": {
+                        "en-US": {
+                          "url": "//images.ctfassets.net/zmrtlfup12q3/41yw3MJuAiUi5DExq2Wy0B/1771a1cb23068e877be668ded9a78ebc/partner_small-badge_TITANIUM_onWhite.svg",
+                          "details": {
+                            "size": 1539,
+                            "image": {
+                              "width": 179,
+                              "height": 268
+                            }
+                          },
+                          "fileName": "partner_small-badge_TITANIUM_onWhite.svg",
+                          "contentType": "image/svg+xml"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "subTitle": {
+          "en-US": "Service Partner"
+        },
+        "excerpt": {
+          "de": "Mit einzigartigen Services in den Bereichen Strategy, Consulting, Digital, Technology und Operations unterstützt Accenture seine Kunden bei der Bewältigung selbst größter Herausforderungen. Mehr als drei Viertel der Fortune Global 500-Unternehmen setzen auf uns als Partner. Gemeinsam treiben wir Innovationen voran – für eine Welt, in der es sich besser arbeiten und leben lässt. Unsere Expertise erstreckt sich über mehr als 40 Branchen und sämtliche Unternehmensbereiche. Wir schaffen neue Lösungen in einer zunehmend herausfordernden digitalen Welt.",
+          "en-US": "Accenture solves clients' toughest challenges by providing unmatched services in strategy, consulting, digital, technology, and operations. Accenture partners with more than three-quarters of the Fortune Global 500, driving innovation to improve the way the world works and lives..."
+        },
+        "description": {
+          "de": "Mit einzigartigen Services in den Bereichen Strategy, Consulting, Digital, Technology und Operations unterstützt Accenture seine Kunden bei der Bewältigung selbst größter Herausforderungen. Mehr als drei Viertel der Fortune Global 500-Unternehmen setzen auf uns als Partner. Gemeinsam treiben wir Innovationen voran – für eine Welt, in der es sich besser arbeiten und leben lässt. Unsere Expertise erstreckt sich über mehr als 40 Branchen und sämtliche Unternehmensbereiche. Wir schaffen neue Lösungen in einer zunehmend herausfordernden digitalen Welt.",
+          "en-US": "Accenture solves clients' toughest challenges by providing unmatched services in strategy, consulting, digital, technology and operations. Accenture partners with more than three-quarters of the Fortune Global 500, driving innovation to improve the way the world works and lives. With expertise across more than 40 industries and all business functions, Accenture delivers transformational outcomes for a demanding new digital world."
+        },
+        "showLinkText": {
+          "en-US": [
+            "True"
+          ]
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "1dAgnn5s2VX6hJdA235XMz",
+        "type": "Entry",
+        "createdAt": "2021-06-02T17:14:01.683Z",
+        "updatedAt": "2022-02-16T08:46:10.489Z"
+      },
+      "fields": {
+        "image": {
+          "en-US": {
+            "sys": {
+              "id": "2ZxGGqRX3sMwZ4z8OECeL9",
+              "type": "Asset",
+              "createdAt": "2019-12-19T10:55:48.710Z",
+              "updatedAt": "2021-06-23T09:52:40.664Z"
+            },
+            "fields": {
+              "title": {
+                "en-US": "image"
+              },
+              "file": {
+                "en-US": {
+                  "url": "//images.ctfassets.net/zmrtlfup12q3/2ZxGGqRX3sMwZ4z8OECeL9/07ffec3ba043dca118fcf385c1188c82/Header-Logo-fat-1.png",
+                  "details": {
+                    "size": 36555,
+                    "image": {
+                      "width": 1683,
+                      "height": 500
+                    }
+                  },
+                  "fileName": "Header-Logo-fat-1.png",
+                  "contentType": "image/png"
+                }
+              }
+            }
+          }
+        },
+        "title": {
+          "en-US": "Apolix"
+        },
+        "pageUrl": {
+          "en-US": "/partner/apolix"
+        },
+        "partnerType": {
+          "en-US": [
+            {
+              "sys": {
+                "id": "3IzOu9zjQxPIbXwjdj1k8G",
+                "type": "Entry",
+                "createdAt": "2021-06-02T16:11:18.428Z",
+                "updatedAt": "2021-06-17T07:37:42.262Z"
+              },
+              "name": "Service Partner",
+              "parentTag": {
+                "name": "Partner Type",
+                "id": "2GfGxhCaaTqvaq9btDMOxW",
+                "slug": "partner-type"
+              }
+            }
+          ]
+        },
+        "partnerLevel": {
+          "en-US": [
+            {
+              "sys": {
+                "id": "6LQW0c9gAO5qvTTDmgIzJp",
+                "type": "Entry",
+                "createdAt": "2021-06-16T09:28:49.459Z",
+                "updatedAt": "2021-06-17T08:01:50.856Z"
+              },
+              "name": "Platinum",
+              "parentTag": {
+                "name": "Service Partner Level",
+                "id": "1RfonXb34oAwAtFV1IRKFM",
+                "slug": "partner-level"
+              }
+            }
+          ]
+        },
+        "meta2": {
+          "en-US": [
+            {
+              "sys": {
+                "id": "5XPrvPoh9mL3kthwGBg7LU",
+                "type": "Entry",
+                "createdAt": "2021-06-22T17:30:06.293Z",
+                "updatedAt": "2021-06-22T17:30:06.293Z"
+              },
+              "fields": {
+                "title": {
+                  "en-US": "Partner Program - PLATINUM --onWhite"
+                },
+                "fileimage": {
+                  "en-US": {
+                    "sys": {
+                      "id": "6peY4MLZQF2dPIX3Nu9KDz",
+                      "type": "Asset",
+                      "createdAt": "2021-06-22T16:33:33.189Z",
+                      "updatedAt": "2021-06-22T17:29:12.226Z"
+                    },
+                    "fields": {
+                      "title": {
+                        "en-US": "partner small-badge PLATINUM"
+                      },
+                      "file": {
+                        "en-US": {
+                          "url": "//images.ctfassets.net/zmrtlfup12q3/6peY4MLZQF2dPIX3Nu9KDz/b4330aa2e504696b0ecdfbebe08ac41d/partner_small-badge_PLATINUM_onWhite.svg",
+                          "details": {
+                            "size": 1608,
+                            "image": {
+                              "width": 179,
+                              "height": 268
+                            }
+                          },
+                          "fileName": "partner_small-badge_PLATINUM_onWhite.svg",
+                          "contentType": "image/svg+xml"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "subTitle": {
+          "en-US": "Service Partner"
+        },
+        "excerpt": {
+          "de": "",
+          "en-US": "Apolix is a young and dynamic consulting firm specialized in process mining. This means we are not only flexible and efficient, but foremost that we value results over chats. With our background in business, Apolix looks..."
+        },
+        "description": {
+          "de": "",
+          "en-US": "Apolix is a young and dynamic consulting firm specialized in process mining. This means we are not only flexible and efficient, but foremost that we value results over chats. With our background in business, Apolix looks beyond the data by also taking the human aspect into consideration for the best results. Apolix offers a wide range of services from analyzing an individual process to fully implementing process mining within your IT infrastructure."
+        },
+        "showLinkText": {
+          "en-US": [
+            "True"
+          ]
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "51QsLdFCxv7nGUw4CiEAUJ",
+        "type": "Entry",
+        "createdAt": "2021-06-02T17:07:11.673Z",
+        "updatedAt": "2022-02-17T09:29:57.548Z"
+      },
+      "fields": {
+        "image": {
+          "en-US": {
+            "sys": {
+              "id": "2vu7jEeouYkqkUgGpI7hdk",
+              "type": "Asset",
+              "createdAt": "2019-01-23T11:11:38.275Z",
+              "updatedAt": "2021-06-21T14:52:25.090Z"
+            },
+            "fields": {
+              "title": {
+                "en-US": "BDO Consulting"
+              },
+              "file": {
+                "en-US": {
+                  "url": "//images.ctfassets.net/zmrtlfup12q3/2vu7jEeouYkqkUgGpI7hdk/4b7562572cfc40e77f79be1d1994f6e2/BDO_logo_150dpi_RGB_290709-removebg-preview.png",
+                  "details": {
+                    "size": 57509,
+                    "image": {
+                      "width": 858,
+                      "height": 500
+                    }
+                  },
+                  "fileName": "BDO_logo_150dpi_RGB_290709-removebg-preview.png",
+                  "contentType": "image/png"
+                }
+              }
+            }
+          }
+        },
+        "title": {
+          "en-US": "BDO Austria"
+        },
+        "pageUrl": {
+          "en-US": "/partner/bdo-austria"
+        },
+        "partnerType": {
+          "en-US": [
+            {
+              "sys": {
+                "id": "3IzOu9zjQxPIbXwjdj1k8G",
+                "type": "Entry",
+                "createdAt": "2021-06-02T16:11:18.428Z",
+                "updatedAt": "2021-06-17T07:37:42.262Z"
+              },
+              "name": "Service Partner",
+              "parentTag": {
+                "name": "Partner Type",
+                "id": "2GfGxhCaaTqvaq9btDMOxW",
+                "slug": "partner-type"
+              }
+            }
+          ]
+        },
+        "partnerLevel": {
+          "en-US": [
+            {
+              "sys": {
+                "id": "6LQW0c9gAO5qvTTDmgIzJp",
+                "type": "Entry",
+                "createdAt": "2021-06-16T09:28:49.459Z",
+                "updatedAt": "2021-06-17T08:01:50.856Z"
+              },
+              "name": "Platinum",
+              "parentTag": {
+                "name": "Service Partner Level",
+                "id": "1RfonXb34oAwAtFV1IRKFM",
+                "slug": "partner-level"
+              }
+            }
+          ]
+        },
+        "meta2": {
+          "en-US": [
+            {
+              "sys": {
+                "id": "5XPrvPoh9mL3kthwGBg7LU",
+                "type": "Entry",
+                "createdAt": "2021-06-22T17:30:06.293Z",
+                "updatedAt": "2021-06-22T17:30:06.293Z"
+              },
+              "fields": {
+                "title": {
+                  "en-US": "Partner Program - PLATINUM --onWhite"
+                },
+                "fileimage": {
+                  "en-US": {
+                    "sys": {
+                      "id": "6peY4MLZQF2dPIX3Nu9KDz",
+                      "type": "Asset",
+                      "createdAt": "2021-06-22T16:33:33.189Z",
+                      "updatedAt": "2021-06-22T17:29:12.226Z"
+                    },
+                    "fields": {
+                      "title": {
+                        "en-US": "partner small-badge PLATINUM"
+                      },
+                      "file": {
+                        "en-US": {
+                          "url": "//images.ctfassets.net/zmrtlfup12q3/6peY4MLZQF2dPIX3Nu9KDz/b4330aa2e504696b0ecdfbebe08ac41d/partner_small-badge_PLATINUM_onWhite.svg",
+                          "details": {
+                            "size": 1608,
+                            "image": {
+                              "width": 179,
+                              "height": 268
+                            }
+                          },
+                          "fileName": "partner_small-badge_PLATINUM_onWhite.svg",
+                          "contentType": "image/svg+xml"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "subTitle": {
+          "en-US": "Service Partner"
+        },
+        "excerpt": {
+          "de": "BDO Consulting ist Ihr verlässlicher Partner in den Bereichen Business Analytics & Operational Excellence, IT Riskomanagement, Cybersecurity, Digitale Forensik und Interne Revision. Mit unseren innovativen Lösungen unter...",
+          "en-US": "BDO Consulting is your reliable partner in the fields Business Analytics & Operational Excellence, IT Risk Management, Cyber Security, Digital Forensics and Internal Audit. We fully support you solving your challenges wi..."
+        },
+        "description": {
+          "de": "BDO Consulting ist Ihr verlässlicher Partner in den Bereichen Business Analytics & Operational Excellence, IT Riskomanagement, Cybersecurity, Digitale Forensik und Interne Revision. Mit unseren innovativen Lösungen unterstützen wir Sie bei Ihren Herausforderungen.\n\nUnser Produkt- und Leistungsspektrum im Bereich Business Analytics & Operational Excellence umfasst die Analyse, die Optimierung und das Management von Geschäftsprozessen (z.B. Einkaufsprozess, Verkaufsprozess, IT-Service Management Prozess, etc.) sowie die Auswertung von geschäftsprozessrelevanten Kennzahlen. Wir arbeiten seit mehr als fünf Jahren mit Celonis Process Mining und unterstützen namenhafte internationale Kunden bei der Entfaltung ihres Potentials.\n\nBDO Consulting ist Teil des internationalen BDO Netzwerks von Prüfungs- und Unternehmensberatungsunternehmen. BDO ist mit seinen über 80.000 Mitarbeiterinnen und Mitarbeitern in ca. 1.590 Büros in 164 Ländern tätig.\n",
+          "en-US": "BDO Consulting is your reliable partner in the fields Business Analytics & Operational Excellence, IT Risk Management, Cyber Security, Digital Forensics and Internal Audit. We fully support you solving your challenges with innovative solutions.\n\nOur products and services in the area of Business Analytics & Operational Excellence cover the analysis, optimization and management of business processes (e.g., purchasing process, sales process, IT service management process, etc.) and the analysis of business process-relevant key performance indicators. We have more than five years of experience working with Celonis process mining and we have been able to support well-known international companies in realizing their potential.\n\nBDO Consulting is part of the international BDO network of public accounting, tax and advisory firms. BDO provides professional services in 164 countries, with over 80,000 people working out of more than 1,590 offices worldwide.\n"
+        },
+        "showLinkText": {
+          "en-US": [
+            "True"
+          ]
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "1u7BmGrv2SN2UM9TErQI05",
+        "type": "Entry",
+        "createdAt": "2021-06-02T17:07:45.749Z",
+        "updatedAt": "2021-06-23T12:02:06.478Z"
+      },
+      "fields": {
+        "image": {
+          "en-US": {
+            "sys": {
+              "id": "352KPZd3lCs66aE8QcWaG2",
+              "type": "Asset",
+              "createdAt": "2017-11-13T10:04:33.220Z",
+              "updatedAt": "2021-06-19T09:41:04.788Z"
+            },
+            "fields": {
+              "title": {
+                "en-US": "brightcape"
+              },
+              "file": {
+                "en-US": {
+                  "url": "//images.ctfassets.net/zmrtlfup12q3/352KPZd3lCs66aE8QcWaG2/253bc7beac03461c5e391b9933b21b66/Bright-Cape.png",
+                  "details": {
+                    "size": 139840,
+                    "image": {
+                      "width": 800,
+                      "height": 800
+                    }
+                  },
+                  "fileName": "Bright-Cape.png",
+                  "contentType": "image/png"
+                }
+              }
+            }
+          }
+        },
+        "title": {
+          "en-US": "Bright Cape "
+        },
+        "pageUrl": {
+          "en-US": "/partner/bright-cape "
+        },
+        "partnerType": {
+          "en-US": [
+            {
+              "sys": {
+                "id": "3IzOu9zjQxPIbXwjdj1k8G",
+                "type": "Entry",
+                "createdAt": "2021-06-02T16:11:18.428Z",
+                "updatedAt": "2021-06-17T07:37:42.262Z"
+              },
+              "name": "Service Partner",
+              "parentTag": {
+                "name": "Partner Type",
+                "id": "2GfGxhCaaTqvaq9btDMOxW",
+                "slug": "partner-type"
+              }
+            }
+          ]
+        },
+        "partnerLevel": {
+          "en-US": [
+            {
+              "sys": {
+                "id": "6LQW0c9gAO5qvTTDmgIzJp",
+                "type": "Entry",
+                "createdAt": "2021-06-16T09:28:49.459Z",
+                "updatedAt": "2021-06-17T08:01:50.856Z"
+              },
+              "name": "Platinum",
+              "parentTag": {
+                "name": "Service Partner Level",
+                "id": "1RfonXb34oAwAtFV1IRKFM",
+                "slug": "partner-level"
+              }
+            }
+          ]
+        },
+        "meta2": {
+          "en-US": [
+            {
+              "sys": {
+                "id": "5XPrvPoh9mL3kthwGBg7LU",
+                "type": "Entry",
+                "createdAt": "2021-06-22T17:30:06.293Z",
+                "updatedAt": "2021-06-22T17:30:06.293Z"
+              },
+              "fields": {
+                "title": {
+                  "en-US": "Partner Program - PLATINUM --onWhite"
+                },
+                "fileimage": {
+                  "en-US": {
+                    "sys": {
+                      "id": "6peY4MLZQF2dPIX3Nu9KDz",
+                      "type": "Asset",
+                      "createdAt": "2021-06-22T16:33:33.189Z",
+                      "updatedAt": "2021-06-22T17:29:12.226Z"
+                    },
+                    "fields": {
+                      "title": {
+                        "en-US": "partner small-badge PLATINUM"
+                      },
+                      "file": {
+                        "en-US": {
+                          "url": "//images.ctfassets.net/zmrtlfup12q3/6peY4MLZQF2dPIX3Nu9KDz/b4330aa2e504696b0ecdfbebe08ac41d/partner_small-badge_PLATINUM_onWhite.svg",
+                          "details": {
+                            "size": 1608,
+                            "image": {
+                              "width": 179,
+                              "height": 268
+                            }
+                          },
+                          "fileName": "partner_small-badge_PLATINUM_onWhite.svg",
+                          "contentType": "image/svg+xml"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "subTitle": {
+          "en-US": "Service Partner"
+        },
+        "excerpt": {
+          "de": "Bright Cape B.V. wurde im Jahr 2014 gegründet und hat drei Linien von Tätigkeiten: Finanzverwaltung, Advanced Analytics und Lösungen. Wir schaffen unsere Produkte und Dienstleistungen für Profit und Non-Profit-Organisati...",
+          "en-US": "Bright Cape B.V. has been founded in 2014 and has three lines of activities: financial management, advanced analytics and solutions. We create our products and services for profit and nonprofit organisations in different..."
+        },
+        "description": {
+          "de": "Bright Cape B.V. wurde im Jahr 2014 gegründet und hat drei Linien von Tätigkeiten: Finanzverwaltung, Advanced Analytics und Lösungen. Wir schaffen unsere Produkte und Dienstleistungen für Profit und Non-Profit-Organisationen in verschiedenen Branchen: Logistik, Energie, Buchhaltung, Versicherung, Medical und Elektronik.Unsere Produkte und Dienstleistungen sind vor allem auf die Datenanalyse basiert. Damit wir unseren Kunden neue Einsichten bieten und diese in Lösungen umsetzen, um ihr Geschäft zu verbessern. Wir machen Werte aus ihren Daten.Bright Cape bietet höchstqualitative Data- Mining Inhalte zur Starthilfe der Prozessanalysen für unsere Kunden.",
+          "en-US": "Bright Cape B.V. has been founded in 2014 and has three lines of activities: financial management, advanced analytics and solutions. We create our products and services for profit and nonprofit organisations in different branches: Logistics, Energy, Accounting, Insurance, Medical and Electronics.Our products and services are mainly based on data analysis. With this, we offer our clients new insights and translate these into solutions to improve their business. We turn your data into value.Bright cape offers out of the box high quality standard mining content to jump-start analysis of client processes.We do not limit ourselves only to the Netherlands. We also work in Germany and want to grow further in Europe and the USA."
+        },
+        "showLinkText": {
+          "en-US": [
+            "True"
+          ]
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "7AMBbZo260t3tuhn6CFFSB",
+        "type": "Entry",
+        "createdAt": "2021-06-02T17:16:27.836Z",
+        "updatedAt": "2022-02-16T18:59:20.403Z"
+      },
+      "fields": {
+        "image": {
+          "en-US": {
+            "sys": {
+              "id": "5WGNqhXHeEdtbErP9pli3z",
+              "type": "Asset",
+              "createdAt": "2019-02-21T22:04:16.520Z",
+              "updatedAt": "2021-09-22T09:12:01.096Z"
+            },
+            "fields": {
+              "title": {
+                "de": "DataLane Logo",
+                "en-US": "DataLane Logo"
+              },
+              "file": {
+                "en-US": {
+                  "url": "//images.ctfassets.net/zmrtlfup12q3/5WGNqhXHeEdtbErP9pli3z/4966c6d1d66bb6acc31758e7f601e375/DataLane_logo.png",
+                  "details": {
+                    "size": 35573,
+                    "image": {
+                      "width": 1200,
+                      "height": 500
+                    }
+                  },
+                  "fileName": "DataLane logo.png",
+                  "contentType": "image/png"
+                }
+              }
+            }
+          }
+        },
+        "title": {
+          "en-US": "Datalane B.V."
+        },
+        "pageUrl": {
+          "en-US": ""
+        },
+        "partnerType": {
+          "en-US": [
+            {
+              "sys": {
+                "id": "3IzOu9zjQxPIbXwjdj1k8G",
+                "type": "Entry",
+                "createdAt": "2021-06-02T16:11:18.428Z",
+                "updatedAt": "2021-06-17T07:37:42.262Z"
+              },
+              "name": "Service Partner",
+              "parentTag": {
+                "name": "Partner Type",
+                "id": "2GfGxhCaaTqvaq9btDMOxW",
+                "slug": "partner-type"
+              }
+            }
+          ]
+        },
+        "partnerLevel": {
+          "en-US": [
+            {
+              "sys": {
+                "id": "6LQW0c9gAO5qvTTDmgIzJp",
+                "type": "Entry",
+                "createdAt": "2021-06-16T09:28:49.459Z",
+                "updatedAt": "2021-06-17T08:01:50.856Z"
+              },
+              "name": "Platinum",
+              "parentTag": {
+                "name": "Service Partner Level",
+                "id": "1RfonXb34oAwAtFV1IRKFM",
+                "slug": "partner-level"
+              }
+            }
+          ]
+        },
+        "meta2": {
+          "en-US": [
+            {
+              "sys": {
+                "id": "5XPrvPoh9mL3kthwGBg7LU",
+                "type": "Entry",
+                "createdAt": "2021-06-22T17:30:06.293Z",
+                "updatedAt": "2021-06-22T17:30:06.293Z"
+              },
+              "fields": {
+                "title": {
+                  "en-US": "Partner Program - PLATINUM --onWhite"
+                },
+                "fileimage": {
+                  "en-US": {
+                    "sys": {
+                      "id": "6peY4MLZQF2dPIX3Nu9KDz",
+                      "type": "Asset",
+                      "createdAt": "2021-06-22T16:33:33.189Z",
+                      "updatedAt": "2021-06-22T17:29:12.226Z"
+                    },
+                    "fields": {
+                      "title": {
+                        "en-US": "partner small-badge PLATINUM"
+                      },
+                      "file": {
+                        "en-US": {
+                          "url": "//images.ctfassets.net/zmrtlfup12q3/6peY4MLZQF2dPIX3Nu9KDz/b4330aa2e504696b0ecdfbebe08ac41d/partner_small-badge_PLATINUM_onWhite.svg",
+                          "details": {
+                            "size": 1608,
+                            "image": {
+                              "width": 179,
+                              "height": 268
+                            }
+                          },
+                          "fileName": "partner_small-badge_PLATINUM_onWhite.svg",
+                          "contentType": "image/svg+xml"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "subTitle": {
+          "en-US": "Service Partner"
+        },
+        "excerpt": {
+          "de": " Zwei kluge ehemalige Celonauts haben sich entschlossen, ihre langjährige Erfahrung im Bereich Process Mining (Implementierung) zu nutzen, um während der gesamten Business Transformation des Kunden stärker eingebunden zu...",
+          "en-US": "From technical implementation to value realization and business transformation; we enable you to gain the insights and actions that maximize business performance, customer experience..."
+        },
+        "description": {
+          "de": " Zwei kluge ehemalige Celonauts haben sich entschlossen, ihre langjährige Erfahrung im Bereich Process Mining (Implementierung) zu nutzen, um während der gesamten Business Transformation des Kunden stärker eingebunden zu werden: DataLane war geboren und wir sind bei jedem Schritt Ihrer Reise dabei. Wir möchten Ihnen eine Lösung bieten, die genau auf die Bedürfnisse Ihres Unternehmens zugeschnitten ist. Darüber hinaus können Sie mit unserem Team Erkenntnisse und Maßnahmen gewinnen, die die Art und Weise, in der Ihr Unternehmen aus den Daten Nutzen zieht, wirklich verändern, um die Geschäftsleistung, die Kundenzufriedenheit und den Umsatz zu maximieren.\nWenn Sie sich für DataLane entscheiden, profitieren Sie von der Zusammenarbeit mit Fachleuten:\n• Nutzen Sie die langjährige Erfahrung von Celonis in den Bereichen Executive und Data Science, bewährte Best-Practises, Überwinden von Projekt Hindernissen, Technologieentwicklungen und strategisches Know-how des Process Mining-Marktes.\n• Ständige Zusammenarbeit mit einem vertrauenswürdigen Partner, der auf die Implementierung von Celonis Process Mining und Intelligent Business Cloud spezialisiert ist, für eine Vielzahl von Branchen und sowohl Standard- als auch kundenspezifische Prozesse und ERP-Systeme.\n• Bauen Sie auf einer klaren Kommunikation, einer bewährten Projektmethodik und unserer breiten Erfahrung bei Celonis-Key-Kunden bei der Einführung von Celonis im Rahmen von Business-Transformationsprogrammen auf.\n• Bringen Sie Process Mining auf die nächste Stufe und prognostizieren Sie die zukünftigen Geschäftsabläufe anhand unseres Hintergrunds in Ökonometrie, Operations Research und Data Science (Machine Learning und KI).\nDataLane B.V. hat seinen Sitz in den Niederlanden.\n",
+          "en-US": "From technical implementation to value realization and business transformation; we enable you to gain the insights and actions that maximize business performance, customer experience and revenue. The DataLane team consists of experienced Process Mining consultants with backgrounds in engineering, data science, operations research, and strategic management. \n•\tMany years of Celonis executive and data science experience, know-how of customer best practices, technology and market developments and project pitfalls. \n•\tSpecialized in Celonis Process Mining and Intelligent Business Cloud implementation for both standard and customized processes and ERP systems. \n•\tContinuous engagement, clear communication, and a proven project methodology"
+        },
+        "showLinkText": {
+          "en-US": [
+            "True"
+          ]
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "2De2YPtVrNaJNd11R7smm5",
+        "type": "Entry",
+        "createdAt": "2021-06-29T09:38:51.841Z",
+        "updatedAt": "2022-06-07T12:26:00.894Z"
+      },
+      "fields": {
+        "image": {
+          "en-US": {
+            "sys": {
+              "id": "3iZsmEfsWra6A92iq3pa5G",
+              "type": "Asset",
+              "createdAt": "2021-06-29T11:49:34.438Z",
+              "updatedAt": "2021-06-29T11:49:34.438Z"
+            },
+            "fields": {
+              "title": {
+                "en-US": "deloitte-logo"
+              },
+              "file": {
+                "en-US": {
+                  "url": "//images.ctfassets.net/zmrtlfup12q3/3iZsmEfsWra6A92iq3pa5G/74a5af58bbdf08b15bd9879fbd66e07f/deloitte-logo.png",
+                  "details": {
+                    "size": 68115,
+                    "image": {
+                      "width": 4096,
+                      "height": 763
+                    }
+                  },
+                  "fileName": "deloitte-logo.png",
+                  "contentType": "image/png"
+                }
+              }
+            }
+          }
+        },
+        "title": {
+          "en-US": "Deloitte"
+        },
+        "pageUrl": {
+          "en-US": "/partner/deloitte"
+        },
+        "partnerType": {
+          "en-US": [
+            {
+              "sys": {
+                "id": "3IzOu9zjQxPIbXwjdj1k8G",
+                "type": "Entry",
+                "createdAt": "2021-06-02T16:11:18.428Z",
+                "updatedAt": "2021-06-17T07:37:42.262Z"
+              },
+              "name": "Service Partner",
+              "parentTag": {
+                "name": "Partner Type",
+                "id": "2GfGxhCaaTqvaq9btDMOxW",
+                "slug": "partner-type"
+              }
+            }
+          ]
+        },
+        "partnerLevel": {
+          "en-US": [
+            {
+              "sys": {
+                "id": "6LQW0c9gAO5qvTTDmgIzJp",
+                "type": "Entry",
+                "createdAt": "2021-06-16T09:28:49.459Z",
+                "updatedAt": "2021-06-17T08:01:50.856Z"
+              },
+              "name": "Platinum",
+              "parentTag": {
+                "name": "Service Partner Level",
+                "id": "1RfonXb34oAwAtFV1IRKFM",
+                "slug": "partner-level"
+              }
+            }
+          ]
+        },
+        "meta2": {
+          "en-US": [
+            {
+              "sys": {
+                "id": "5XPrvPoh9mL3kthwGBg7LU",
+                "type": "Entry",
+                "createdAt": "2021-06-22T17:30:06.293Z",
+                "updatedAt": "2021-06-22T17:30:06.293Z"
+              },
+              "fields": {
+                "title": {
+                  "en-US": "Partner Program - PLATINUM --onWhite"
+                },
+                "fileimage": {
+                  "en-US": {
+                    "sys": {
+                      "id": "6peY4MLZQF2dPIX3Nu9KDz",
+                      "type": "Asset",
+                      "createdAt": "2021-06-22T16:33:33.189Z",
+                      "updatedAt": "2021-06-22T17:29:12.226Z"
+                    },
+                    "fields": {
+                      "title": {
+                        "en-US": "partner small-badge PLATINUM"
+                      },
+                      "file": {
+                        "en-US": {
+                          "url": "//images.ctfassets.net/zmrtlfup12q3/6peY4MLZQF2dPIX3Nu9KDz/b4330aa2e504696b0ecdfbebe08ac41d/partner_small-badge_PLATINUM_onWhite.svg",
+                          "details": {
+                            "size": 1608,
+                            "image": {
+                              "width": 179,
+                              "height": 268
+                            }
+                          },
+                          "fileName": "partner_small-badge_PLATINUM_onWhite.svg",
+                          "contentType": "image/svg+xml"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "subTitle": {
+          "en-US": "Service Partner"
+        },
+        "excerpt": {
+          "de": "Deloitte erbringt Dienstleistungen in den Bereichen Wirtschaftsprüfung, Risk Advisory, Steuerberatung, Financial Advisory und Consulting für Unternehmen und Institutionen aus allen Wirtschaftszweigen; Mit einem weltweiten Netzwerk von Mitgliedsgesellschaften in mehr als 150 Ländern verbindet Deloitte herausragende Kompetenz mit erstklassigen Leistungen und unterstützt Kunden bei der Lösung ihrer komplexen unternehmerischen Herausforderungen. Making an impact that matters – für mehr als 224.000 Mitarbeiter von Deloitte ist dies gemeinsames Leitbild und individueller Anspruch zugleich.",
+          "en-US": "Deloitte provides audit, tax, financial advisory and consulting services to public and private clients spanning multiple industries; With a globally connected network of member firms in more than 150 countries,..."
+        },
+        "description": {
+          "de": "Deloitte erbringt Dienstleistungen in den Bereichen Wirtschaftsprüfung, Risk Advisory, Steuerberatung, Financial Advisory und Consulting für Unternehmen und Institutionen aus allen Wirtschaftszweigen; Mit einem weltweiten Netzwerk von Mitgliedsgesellschaften in mehr als 150 Ländern verbindet Deloitte herausragende Kompetenz mit erstklassigen Leistungen und unterstützt Kunden bei der Lösung ihrer komplexen unternehmerischen Herausforderungen. Making an impact that matters – für mehr als 224.000 Mitarbeiter von Deloitte ist dies gemeinsames Leitbild und individueller Anspruch zugleich.",
+          "en-US": "Deloitte provides audit, tax, financial advisory and consulting services to public and private clients spanning multiple industries; With a globally connected network of member firms in more than 150 countries, Deloitte brings world-class capabilities and high-quality service to clients, delivering the insights they need to address their most complex business challenges. Deloitte’s more than 225,000 professionals are committed to making an impact that matters."
+        },
+        "showLinkText": {
+          "en-US": [
+            "True"
+          ]
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "5yZLVjF5nS7Xfr8np4uCDA",
+        "type": "Entry",
+        "createdAt": "2021-06-02T17:07:36.499Z",
+        "updatedAt": "2022-02-16T08:52:13.374Z"
+      },
+      "fields": {
+        "image": {
+          "en-US": {
+            "sys": {
+              "id": "1GojKs6WgISGz22X9NnQiM",
+              "type": "Asset",
+              "createdAt": "2021-01-27T10:22:27.910Z",
+              "updatedAt": "2021-10-19T19:35:33.176Z"
+            },
+            "fields": {
+              "title": {
+                "en-US": "Doculabs Logo"
+              },
+              "file": {
+                "en-US": {
+                  "url": "//images.ctfassets.net/zmrtlfup12q3/1GojKs6WgISGz22X9NnQiM/cd96b7c00684a282553613461551802d/image-removebg-preview__4_.png",
+                  "details": {
+                    "size": 103355,
+                    "image": {
+                      "width": 1231,
+                      "height": 500
+                    }
+                  },
+                  "fileName": "image-removebg-preview (4).png",
+                  "contentType": "image/png"
+                }
+              }
+            }
+          }
+        },
+        "title": {
+          "en-US": "Doculabs "
+        },
+        "pageUrl": {
+          "en-US": ""
+        },
+        "partnerType": {
+          "en-US": [
+            {
+              "sys": {
+                "id": "3IzOu9zjQxPIbXwjdj1k8G",
+                "type": "Entry",
+                "createdAt": "2021-06-02T16:11:18.428Z",
+                "updatedAt": "2021-06-17T07:37:42.262Z"
+              },
+              "name": "Service Partner",
+              "parentTag": {
+                "name": "Partner Type",
+                "id": "2GfGxhCaaTqvaq9btDMOxW",
+                "slug": "partner-type"
+              }
+            }
+          ]
+        },
+        "partnerLevel": {
+          "en-US": [
+            {
+              "sys": {
+                "id": "6LQW0c9gAO5qvTTDmgIzJp",
+                "type": "Entry",
+                "createdAt": "2021-06-16T09:28:49.459Z",
+                "updatedAt": "2021-06-17T08:01:50.856Z"
+              },
+              "name": "Platinum",
+              "parentTag": {
+                "name": "Service Partner Level",
+                "id": "1RfonXb34oAwAtFV1IRKFM",
+                "slug": "partner-level"
+              }
+            }
+          ]
+        },
+        "meta2": {
+          "en-US": [
+            {
+              "sys": {
+                "id": "5XPrvPoh9mL3kthwGBg7LU",
+                "type": "Entry",
+                "createdAt": "2021-06-22T17:30:06.293Z",
+                "updatedAt": "2021-06-22T17:30:06.293Z"
+              },
+              "fields": {
+                "title": {
+                  "en-US": "Partner Program - PLATINUM --onWhite"
+                },
+                "fileimage": {
+                  "en-US": {
+                    "sys": {
+                      "id": "6peY4MLZQF2dPIX3Nu9KDz",
+                      "type": "Asset",
+                      "createdAt": "2021-06-22T16:33:33.189Z",
+                      "updatedAt": "2021-06-22T17:29:12.226Z"
+                    },
+                    "fields": {
+                      "title": {
+                        "en-US": "partner small-badge PLATINUM"
+                      },
+                      "file": {
+                        "en-US": {
+                          "url": "//images.ctfassets.net/zmrtlfup12q3/6peY4MLZQF2dPIX3Nu9KDz/b4330aa2e504696b0ecdfbebe08ac41d/partner_small-badge_PLATINUM_onWhite.svg",
+                          "details": {
+                            "size": 1608,
+                            "image": {
+                              "width": 179,
+                              "height": 268
+                            }
+                          },
+                          "fileName": "partner_small-badge_PLATINUM_onWhite.svg",
+                          "contentType": "image/svg+xml"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "subTitle": {
+          "en-US": "Service Partner"
+        },
+        "excerpt": {
+          "de": "",
+          "en-US": "Doculabs is a management consulting firm that delivers trusted advice for companies to achieve their digital objectives and goals. We help companies accelerate their digital objectives through a variety of consulting ser..."
+        },
+        "description": {
+          "de": "",
+          "en-US": "Doculabs is a management consulting firm that delivers trusted advice for companies to achieve their digital objectives and goals. We help companies accelerate their digital objectives through a variety of consulting services, including development of strategic vision and roadmaps, business cases, program design, process mining and redesign, technology evaluation, delivery methodology and governance models"
+        },
+        "showLinkText": {
+          "en-US": [
+            "True"
+          ]
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "3jdInTmv222Qlg3LHcClEs",
+        "type": "Entry",
+        "createdAt": "2021-06-02T17:11:33.752Z",
+        "updatedAt": "2021-06-23T12:02:17.585Z"
+      },
+      "fields": {
+        "image": {
+          "en-US": {
+            "sys": {
+              "id": "6yuc2o8544gEUg28g8giuQ",
+              "type": "Asset",
+              "createdAt": "2018-01-11T10:39:14.504Z",
+              "updatedAt": "2021-06-19T09:55:40.704Z"
+            },
+            "fields": {
+              "title": {
+                "de": "INFOMOTION Logo - de",
+                "en-US": "INFOMOTION Logo - en"
+              },
+              "description": {
+                "de": "INFOMOTION Logo - de",
+                "en-US": "INFOMOTION Logo - en"
+              },
+              "file": {
+                "de": {
+                  "url": "//images.ctfassets.net/zmrtlfup12q3/6yuc2o8544gEUg28g8giuQ/bc3c5d1d73c480129a3b58b77956c1fa/INFOMOTION_Logo_RGB.png",
+                  "details": {
+                    "size": 41888,
+                    "image": {
+                      "width": 2000,
+                      "height": 400
+                    }
+                  },
+                  "fileName": "INFOMOTION_Logo_RGB.png",
+                  "contentType": "image/png"
+                },
+                "en-US": {
+                  "url": "//images.ctfassets.net/zmrtlfup12q3/6yuc2o8544gEUg28g8giuQ/63693702e1b2c9b8877cb04256653e4a/infomotion_V.png",
+                  "details": {
+                    "size": 7257,
+                    "image": {
+                      "width": 503,
+                      "height": 100
+                    }
+                  },
+                  "fileName": "infomotion_V.png",
+                  "contentType": "image/png"
+                }
+              }
+            }
+          }
+        },
+        "title": {
+          "en-US": "Infomotion"
+        },
+        "pageUrl": {
+          "en-US": ""
+        },
+        "partnerType": {
+          "en-US": [
+            {
+              "sys": {
+                "id": "3IzOu9zjQxPIbXwjdj1k8G",
+                "type": "Entry",
+                "createdAt": "2021-06-02T16:11:18.428Z",
+                "updatedAt": "2021-06-17T07:37:42.262Z"
+              },
+              "name": "Service Partner",
+              "parentTag": {
+                "name": "Partner Type",
+                "id": "2GfGxhCaaTqvaq9btDMOxW",
+                "slug": "partner-type"
+              }
+            }
+          ]
+        },
+        "partnerLevel": {
+          "en-US": [
+            {
+              "sys": {
+                "id": "6LQW0c9gAO5qvTTDmgIzJp",
+                "type": "Entry",
+                "createdAt": "2021-06-16T09:28:49.459Z",
+                "updatedAt": "2021-06-17T08:01:50.856Z"
+              },
+              "name": "Platinum",
+              "parentTag": {
+                "name": "Service Partner Level",
+                "id": "1RfonXb34oAwAtFV1IRKFM",
+                "slug": "partner-level"
+              }
+            }
+          ]
+        },
+        "meta2": {
+          "en-US": [
+            {
+              "sys": {
+                "id": "5XPrvPoh9mL3kthwGBg7LU",
+                "type": "Entry",
+                "createdAt": "2021-06-22T17:30:06.293Z",
+                "updatedAt": "2021-06-22T17:30:06.293Z"
+              },
+              "fields": {
+                "title": {
+                  "en-US": "Partner Program - PLATINUM --onWhite"
+                },
+                "fileimage": {
+                  "en-US": {
+                    "sys": {
+                      "id": "6peY4MLZQF2dPIX3Nu9KDz",
+                      "type": "Asset",
+                      "createdAt": "2021-06-22T16:33:33.189Z",
+                      "updatedAt": "2021-06-22T17:29:12.226Z"
+                    },
+                    "fields": {
+                      "title": {
+                        "en-US": "partner small-badge PLATINUM"
+                      },
+                      "file": {
+                        "en-US": {
+                          "url": "//images.ctfassets.net/zmrtlfup12q3/6peY4MLZQF2dPIX3Nu9KDz/b4330aa2e504696b0ecdfbebe08ac41d/partner_small-badge_PLATINUM_onWhite.svg",
+                          "details": {
+                            "size": 1608,
+                            "image": {
+                              "width": 179,
+                              "height": 268
+                            }
+                          },
+                          "fileName": "partner_small-badge_PLATINUM_onWhite.svg",
+                          "contentType": "image/svg+xml"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "subTitle": {
+          "en-US": "Service Partner"
+        },
+        "excerpt": {
+          "de": "Die INFOMOTION GmbH gehört seit 2004 zu den führenden deutschen Beratungsunternehmen für Business Intelligence (BI), Big Data und Digital Solutions. Mit über 400 erfahrenen Mitarbeitern an zehn Standorten in Deutschland,...",
+          "en-US": "INFOMOTION GmbH has been one of the leading German consulting companies for Business Intelligence (BI), Big Data and Digital Solutions since 2004. With more than 400 experienced employees at ten locations in Germany, Swi..."
+        },
+        "description": {
+          "de": "Die INFOMOTION GmbH gehört seit 2004 zu den führenden deutschen Beratungsunternehmen für Business Intelligence (BI), Big Data und Digital Solutions. Mit über 400 erfahrenen Mitarbeitern an zehn Standorten in Deutschland, in der Schweiz und in Österreich betreut INFOMOTION mehr als 350 zufriedene Kunden zahlreicher Branchen.\nDas umfangreiche Portfolio reicht von der strategischen IT-Beratung über die Konzeption, Implementierung und den Betrieb nachhaltiger BI-Lösungen bis hin zur Schulung Ihrer Mitarbeiter. Kunden sind Energieversorger wie EnBW, Finanzinstitute wie Commerzbank, Union Investment oder ING-DiBa, Versicherungsgesellschaften wie AXA, Talanx oder LV1871 und viele weitere namhafte Unternehmen wie Boehringer Ingelheim, Deutsche Post oder Viessmann. Alle IT-Systeme und Technologien werden bei INFOMOTION individuell nach den Anforderungen des einzelnen Kunden ausgewählt. Um jeden Kunden völlig herstellerunabhängig, aber dennoch mit tiefgehendem Know-how beraten zu können, unterhält INFOMOTION enge Partnerschaften zu nahezu allen wichtigen Anbietern von BI-Software. Hierzu zählen Cloudera, IBM, Informatica, Microsoft, MicroStrategy, Oracle, Qlik, SAS, SAP (BusinessObjects, BPC, BW und HANA) sowie eine Reihe von Spezialanbietern.",
+          "en-US": "INFOMOTION GmbH has been one of the leading German consulting companies for Business Intelligence (BI), Big Data and Digital Solutions since 2004. With more than 400 experienced employees at ten locations in Germany, Switzerland and Austria, INFOMOTION serves more than 350 satisfied customers in numerous industries. The extensive portfolio ranges from strategic IT consulting to the conception, implementation and operation of sustainable BI solutions and the training of your employees. Customers include energy providers such as EnBW, financial institutions such as Commerzbank, Union Investment or ING-DiBa, insurance companies such as AXA, Talanx or LV1871 and many other well-known companies such as Boehringer Ingelheim, Deutsche Post or Viessmann. At INFOMOTION, all IT systems and technologies are individually selected according to the requirements of each customer. In order to be able to advise each customer completely independent of manufacturers, but still with in-depth know-how, INFOMOTION maintains close partnerships with almost all major BI software providers. These include Anaplan, Cloudera, Denodo, IBM, Informatica, Microsoft, MicroStrategy, Oracle, Qlik, SAS, SAP (BusinessObjects, BPC, BW and HANA), Snowflake, Tableau, Teradata, Wherescape as well as a number of specialized vendors."
+        },
+        "showLinkText": {
+          "en-US": [
+            "True"
+          ]
+        }
+      }
+    }
+  ]
+}

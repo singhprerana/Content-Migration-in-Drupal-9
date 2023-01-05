@@ -1,0 +1,145 @@
+id: mh_partner_node
+label: Partner node data import | English
+migration_group: partner_node_import
+source:
+  plugin: url
+  data_fetcher_plugin: file
+  data_parser_plugin: json
+  include_raw_data: true
+  track_changes: true
+  urls:
+    - 'sites/default/files/migration-source/partner.json'
+  item_selector: items/
+  # Field Selectors
+  fields:
+    - name: title
+      label: 'title'
+      selector: fields/title/en-US
+
+    - name: description
+      label: 'description'
+      selector: fields/description/en-US
+
+    - name: partnerType
+      label: 'Partner Type'
+      selector: fields/partnerType/en-US
+
+    - name: partnerLevel
+      label: 'Partner Level'
+      selector: fields/partnerLevel/en-US/0/name
+
+    - name: createdAt
+      label: 'createdAt'
+      selector: sys/createdAt
+
+    - name: updatedAt
+      label: 'updatedAt'
+      selector: sys/updatedAt
+
+    - name: id
+      label: 'id'
+      selector: sys/id
+
+    - name: imageId
+      label: 'imageId'
+      selector: fields/image/en-US/sys/id
+
+    - name: pageUrl
+      label: 'URL alias'
+      selector: fields/pageUrl/en-US
+
+  ids:
+    id:
+      type: string
+  # Constants used
+  constants:
+    UID: 1
+    PATH_AUTO_TRUE: 1
+    PATH_AUTO_FALSE: 0
+# Data Mapping process
+process:
+  # Node Title
+  title: title
+  # Partner Description
+  body: description
+  # Partner Level
+  field_partner_level:
+    plugin: entity_generate
+    source: partnerLevel
+    entity_type: taxonomy_term
+    bundle_key: vid
+    bundle: partner_level
+    value_key: name
+  # Partner Type
+  field_partner_type:
+    plugin: sub_process
+    source: partnerType
+    process:
+      target_id:
+        plugin: entity_lookup
+        source: name
+        entity_type: taxonomy_term
+        bundle: partner_type
+        bundle_key: vid
+        value_key: name
+        ignore_case: true
+  # Paragraph value
+  pseudo_paragraph:
+    plugin: migration_lookup
+    migration: mh_partner_node_paragraphs
+    source: id
+  # Paragraph
+  field_paragraph_content:
+    plugin: sub_process
+    source:
+      - '@pseudo_paragraph'
+    process:
+      target_id: '0'
+      target_revision_id: '1'
+  # Partner Logo
+  field_image/target_id:
+    plugin: migration_lookup
+    migration: mh_partner_node_logo_files
+    source: imageId
+  field_image/alt: title
+  field_image/title: title
+  # Authored On
+  created:
+    plugin: format_date
+    source: createdAt
+    from_format: 'Y-m-d\TH:i:s.v\Z'
+    to_format: U
+    from_timezone: UTC
+    to_timezone: UTC
+  # Updated On
+  changed:
+    plugin: format_date
+    source: updatedAt
+    from_format: 'Y-m-d\TH:i:s.v\Z'
+    to_format: U
+    from_timezone: UTC
+    to_timezone: UTC
+  # URL Alias
+  path/pathauto:
+    plugin: if_condition
+    source: pageUrl
+    condition: empty
+    do_get: constants/PATH_AUTO_TRUE
+    else_get: constants/PATH_AUTO_FALSE
+  path/alias: pageUrl
+  # Node Language
+  langcode:
+    plugin: default_value
+    default_value: en
+  # Current Moderation State
+  moderation_state: 
+    plugin: default_value
+    default_value: 'published'
+  uid: constants/UID
+# Bundle details
+destination:
+  plugin: 'entity:node'
+  default_bundle: partner
+migration_dependencies:
+  required:
+    - mh_partner_node_logo_files

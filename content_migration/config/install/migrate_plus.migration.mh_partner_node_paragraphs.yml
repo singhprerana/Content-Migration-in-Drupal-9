@@ -1,0 +1,64 @@
+id: mh_partner_node_paragraphs
+label: Partner's Paragraph data import | English
+migration_group: partner_node_import
+source:
+  plugin: url
+  data_fetcher_plugin: file
+  data_parser_plugin: json
+  include_raw_data: true
+  track_changes: true
+  urls:
+    - 'sites/default/files/migration-source/partner.json'
+  item_selector: items/
+  fields:
+    - name: teaserTitle
+      label: 'teaserTitle'
+      selector: fields/title/en-US
+    
+    - name: excerpt
+      label: 'excerpt'
+      selector: fields/excerpt/en-US
+
+    - name: teaserImage
+      label: 'Teaser Image'
+      selector: fields/image/en-US/fields/file/en-US/fileName
+
+    - name: createdAt
+      label: 'createdAt'
+      selector: sys/createdAt
+
+    - name: id
+      label: 'id'
+      selector: sys/id
+
+  ids:
+    id:
+      type: string
+  constants:
+    UID: 1
+process:
+  field_teaser_title: teaserTitle
+  field_teaser_description/value: excerpt
+  field_teaser_description/format:
+    plugin: default_value
+    default_value: 'full_html'
+  field_teaser_image:
+    plugin: entity_lookup
+    entity_type: media
+    bundle: image
+    value_key: name
+    source: teaserImage
+  created:
+    plugin: format_date
+    source: createdAt
+    from_format: 'Y-m-d\TH:i:s.v\Z'
+    to_format: U
+    from_timezone: UTC
+    to_timezone: UTC
+  langcode:
+    plugin: default_value
+    default_value: en
+  uid: constants/UID
+destination:
+  plugin: 'entity_reference_revisions:paragraph'
+  default_bundle: test_paragraph
